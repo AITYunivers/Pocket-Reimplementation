@@ -1,0 +1,6 @@
+{
+  "parent": "pocket:block/fence_gate_closed",
+  "textures": {
+    "texture": "minecraft:block/oak_planks"
+  }
+}

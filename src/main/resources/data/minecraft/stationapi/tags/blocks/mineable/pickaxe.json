@@ -1,0 +1,13 @@
+{
+  "values": [
+    "pocket:brick_stairs",
+    "pocket:brick_slab",
+    "pocket:brick_slab_double",
+    "pocket:stone_bricks",
+    "pocket:nether_bricks",
+    "pocket:coal_block",
+    "pocket:netherrack",
+    "pocket:nether_reactor",
+    "pocket:glowing_obsidian"
+  ]
+}

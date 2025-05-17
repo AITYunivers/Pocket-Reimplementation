@@ -1,0 +1,42 @@
+{
+  "variants": {
+    "facing=east,open=false": {
+      "model": "pocket:block/oak_fence_gate_closed",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=east,open=true": {
+      "model": "pocket:block/oak_fence_gate_open",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=north,open=false": {
+      "model": "pocket:block/oak_fence_gate_closed",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=north,open=true": {
+      "model": "pocket:block/oak_fence_gate_open",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,open=false": {
+      "model": "pocket:block/oak_fence_gate_closed",
+      "uvlock": true
+    },
+    "facing=south,open=true": {
+      "model": "pocket:block/oak_fence_gate_open",
+      "uvlock": true
+    },
+    "facing=west,open=false": {
+      "model": "pocket:block/oak_fence_gate_closed",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=west,open=true": {
+      "model": "pocket:block/oak_fence_gate_open",
+      "uvlock": true,
+      "y": 90
+    }
+  }
+}

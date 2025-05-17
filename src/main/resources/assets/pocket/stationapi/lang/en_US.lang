@@ -1,0 +1,21 @@
+tile.pocket.rose_blue.name=Blue Rose
+tile.pocket.brick_stairs.name=Brick Stairs
+tile.pocket.brick_slab.name=Brick Slabs
+tile.pocket.stone_bricks.name=Stone Bricks
+tile.pocket.stone_brick_stairs.name=Stone Brick Stairs
+tile.pocket.stone_brick_slab.name=Stone Brick Slabs
+tile.pocket.nether_bricks.name=Nether Bricks
+tile.pocket.nether_brick_stairs.name=Nether Brick Stairs
+tile.pocket.coal_block.name=Block of Coal
+tile.pocket.hay_bale.name=Hay Bale
+tile.pocket.melon.name=Melon
+tile.pocket.melon_seeds.name=Melon Seeds
+tile.pocket.pumpkin_seeds.name=Pumpkin Seeds
+tile.pocket.nether_reactor.name=Nether Reactor Core
+tile.pocket.glowing_obsidian.name=Glowing Obsidian
+tile.pocket.oak_fence_gate.name=Fence Gate
+
+item.pocket.nether_brick.name=Nether Brick
+item.pocket.melon_slice.name=Melon Slice
+item.pocket.melon_seeds.name=Melon Seeds
+item.pocket.pumpkin_seeds.name=Pumpkin Seeds

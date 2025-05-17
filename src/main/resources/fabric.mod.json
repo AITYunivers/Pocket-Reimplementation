@@ -1,36 +1,48 @@
 {
   "schemaVersion": 1,
-  "id": "%s",
+  "id": "pocket",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Minecraft: Pocket Edition",
+  "description": "A mod that aims to recreate the experience of MCPE 0.8.0",
   "authors": [
-    "Me!"
+    "Yunivers"
   ],
   "contact": {
-    "homepage": "https://glass-launcher.net/",
-    "sources": "https://github.com/calmilamsy/stationapi-example-mod"
+    "homepage": "https://minecraft.wiki/w/Pocket_Edition_v0.8.0_alpha",
+    "sources": "https://github.com/AITYunivers/Pocket-Reimplementation",
+    "issues": "https://github.com/AITYunivers/Pocket-Reimplementation/issues"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/%s/icon.png",
+  "icon": "assets/pocket/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "stationapi:event_bus": [
-      "%s.events.init.InitListener"
+      "io.github.yunivers.pocket.events.init.InitBlockEntities",
+      "io.github.yunivers.pocket.events.init.InitBlocks",
+      "io.github.yunivers.pocket.events.init.InitItems",
+      "io.github.yunivers.pocket.events.init.InitRecipes",
+      "io.github.yunivers.pocket.events.init.InitTextures",
+      "io.github.yunivers.pocket.events.post.DataReload",
+      "io.github.yunivers.pocket.events.post.PostBlockAndItemRegister"
     ],
     "stationapi:event_bus_client": [
     ],
     "stationapi:event_bus_server": [
+    ],
+    "alwaysmoreitems:plugin": [
+      "io.github.yunivers.pocket.compatibility.ami.AMIPocketPlugin"
     ]
   },
   "mixins": [
-    "%s.mixins.json"
+    "pocket.mixins.json"
   ],
+  "accessWidener": "pocket.accesswidener",
 
   "depends": {
-    "minecraft": "1.0.0-beta.7.3"
+    "minecraft": "1.0.0-beta.7.3",
+    "yuniutil": ">=1.0.0"
   }
 }

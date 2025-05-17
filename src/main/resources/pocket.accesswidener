@@ -1,0 +1,7 @@
+accessWidener v2 named
+
+accessible field net/minecraft/block/Block resistance F
+accessible field net/minecraft/client/Minecraft INSTANCE Lnet/minecraft/client/Minecraft;
+accessible method net/minecraft/entity/mob/PigZombieEntity makeAngry (Lnet/minecraft/entity/Entity;)V
+accessible method net/minecraft/entity/mob/PigZombieEntity getTargetInRange ()Lnet/minecraft/entity/Entity;
+accessible field net/minecraft/entity/mob/PigZombieEntity anger I
